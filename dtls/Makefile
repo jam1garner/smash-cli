@@ -4,5 +4,5 @@ SRC_DIR ?= src
 all: $(SRC_DIR)/main.c
 	gcc -g -Wall -o $(OUT_FILE) $(SRC_DIR)/main.c
 
-#clean:
-#	rm
+clean:
+	rm -f $(OUT_FILE)
