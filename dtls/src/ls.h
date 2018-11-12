@@ -3,7 +3,7 @@
 typedef struct LS_HEADER {
 	char magic[2];
 	uint16_t version;
-   	uint16_t entryCount;	
+   	uint32_t entryCount;	
 } LS_HEADER;
 
 typedef struct LS_ENTRY {
